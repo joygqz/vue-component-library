@@ -1,0 +1,10 @@
+{
+  "name": "main",
+  "version": "0.0.0",
+  "peerDependencies": {
+    "vue": "catalog:"
+  },
+  "devDependencies": {
+    "vue": "catalog:"
+  }
+}
