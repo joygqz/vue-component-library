@@ -1,5 +1,6 @@
 {
   "name": "main",
+  "type": "module",
   "version": "0.0.0",
   "peerDependencies": {
     "vue": "catalog:"

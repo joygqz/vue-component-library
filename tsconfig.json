@@ -5,6 +5,9 @@
     },
     {
       "path": "./tsconfig.playground.json"
+    },
+    {
+      "path": "./tsconfig.packages.json"
     }
   ],
   "files": []
