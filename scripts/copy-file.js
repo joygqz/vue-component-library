@@ -11,8 +11,18 @@ function copyPackageJson() {
   }
 }
 
+// function copyReadme() {
+//   const readmePath = path.join(__dirname, '../README.md')
+//   const distReadmePath = path.join(__dirname, '../dist/README.md')
+
+//   if (fs.existsSync(readmePath)) {
+//     fs.copyFileSync(readmePath, distReadmePath)
+//   }
+// }
+
 try {
   copyPackageJson()
+  // copyReadme()
 }
 catch {
   process.exit(1)
