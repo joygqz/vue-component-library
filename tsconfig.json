@@ -1,14 +1,8 @@
 {
   "references": [
-    {
-      "path": "./tsconfig.node.json"
-    },
-    {
-      "path": "./tsconfig.playground.json"
-    },
-    {
-      "path": "./tsconfig.packages.json"
-    }
+    { "path": "./tsconfig.playground.json" },
+    { "path": "./tsconfig.packages.json" },
+    { "path": "./tsconfig.node.json" }
   ],
   "files": []
 }

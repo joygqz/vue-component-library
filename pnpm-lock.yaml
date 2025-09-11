@@ -23,9 +23,6 @@ importers:
       '@main/resolver':
         specifier: workspace:*
         version: link:packages/resolver
-      '@main/utils':
-        specifier: workspace:*
-        version: link:packages/utils
       es-toolkit:
         specifier: ^1.39.10
         version: 1.39.10
@@ -48,6 +45,9 @@ importers:
       '@vitejs/plugin-vue-jsx':
         specifier: ^5.1.1
         version: 5.1.1(vite@7.1.5(@types/node@24.3.1)(yaml@2.8.1))(vue@3.5.21(typescript@5.9.2))
+      '@vue/language-core':
+        specifier: ^3.0.6
+        version: 3.0.6(typescript@5.9.2)
       '@vue/tsconfig':
         specifier: ^0.8.1
         version: 0.8.1(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))
@@ -109,8 +109,6 @@ importers:
       vue:
         specifier: 'catalog:'
         version: 3.5.21(typescript@5.9.2)
-
-  packages/utils: {}
 
   playground:
     dependencies:
